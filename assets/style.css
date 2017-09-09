@@ -1,0 +1,15 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+#after_submit {
+	visibility: hidden;
+}
+
+h1 {
+	color: green;
+}
+
+p {
+    padding: 50px 30px 50px 80px;
+}

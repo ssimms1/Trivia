@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  	<link src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  	
+</head>
+<body>
+
+<div class = "row">
+	<div class = "col-lg-12">
+
+		<div class = "jumbotron">
+  			<h1 align="center"><strong>How Well Do You Know Me?</strong> </h1>
+  	 </div>
+ <form id = "trivia" name = "trivia">
+ <ol>
+ 	<div class = "col-md-4">
+ 		<li> What State is Sabrina from? </li>
+ 			<p> <input type="radio" name = "q1" value = "incorrect"> New Jersey </p>
+ 			<p> <input type="radio" name = "q1" value = "correct"> California </p>
+ 			<p> <input type="radio" name = "q1" value = "incorrect"> Washington DC </p>
+ 			<p> <input type="radio" name = "q1" value = "incorrect"> Virgnia </p>
+ 		</div>
+ 	<div class = "col-md-4">
+ 		<li> How many siblings does Sabrina have? </li>
+ 			<p> <input type="radio" name = "q2" value = "incorrect"> Seven </p>
+ 			<p> <input type="radio" name = "q2" value = "incorrect"> Two </p>
+ 			<p> <input type="radio" name = "q2" value = "correct"> One </p>
+ 			<p> <input type="radio" name = "q2" value = "incorrect"> Four </p>
+ 		</div>
+ 	<li> Where is the last place Sabrina traveled to? </li>
+ 			<p> <input type="radio" name = "q3" value = "incorrect"> Greece </p>
+ 			<p> <input type="radio" name = "q3" value = "incorrect"> Nevada </p>
+ 			<p> <input type="radio" name = "q3" value = "incorrect"> California </p>
+ 			<p> <input type="radio" name = "q3" value = "correct"> Curacou </p><br>
+ 	<div class = "col-md-4">
+ 		<li> What country is Sabrina's mother from? </li>
+ 			<p> <input type="radio" name = "q4" value = "incorrect"> Puerto Rico </p>
+ 			<p> <input type="radio" name = "q4" value = "incorrect"> Jamaica </p>
+ 			<p> <input type="radio" name = "q4" value = "correct"> Ethiopia </p>
+ 			<p> <input type="radio" name = "q4" value = "incorrect"> Nigeria </p>
+ 			</div>
+<div class = "col-md-4">
+ 	<li> What is Sabrina's favorite adventurous hobby? </li>
+ 			<p> <input type="radio" name = "q5" value = "incorrect"> Sky Diving </p>
+ 			<p> <input type="radio" name = "q5" value = "correct"> Jet Skiing </p>
+ 			<p> <input type="radio" name = "q5" value = "incorrect"> Bowling </p>
+ 			<p> <input type="radio" name = "q5" value = "incorrect"> Running </p>
+ 		</div>
+
+ 	<li> What is Sabrina's favorite artistic hobby?</li>
+ 			<p> <input type="radio" name = "q6" value = "correct"> Songwriting </p>
+ 			<p> <input type="radio" name = "q6" value = "incorrect"> Painting </p>
+ 			<p> <input type="radio" name = "q6" value = "incorrect"> Writing</p>
+ 			<p> <input type="radio" name = "q6" value = "incorrect"> Tatooing </p><br>
+ 			<input id ="button" type = "button" value = "I'm finished!" onclick ="check();">
+ 			
+  </ol>
+ 	<div id= "time-left"></div>
+ 	
+     
+	
+</form>
+	<div id="after_submit">
+	<p id="number_correct"></p>
+	<script src = "javascript.js"></script>
+</body>
+
+</html>
